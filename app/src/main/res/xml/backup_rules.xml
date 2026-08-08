@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- 企业模板默认不备份业务数据；接入数据分类策略后再逐项放行。 -->
+    <exclude domain="root" path="." />
+</full-backup-content>
+
