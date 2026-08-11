@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.enterprise.feature.home"
+    namespace = "com.example.composetemplate.feature.home"
     compileSdk = 36
     defaultConfig { minSdk = 24 }
     compileOptions {

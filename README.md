@@ -1,6 +1,8 @@
-# Enterprise Compose Template
+# Compose Template
 
 这是一个面向企业 Android 项目的 Jetpack Compose 多模块模板。它不是只展示目录的空壳：应用可直接运行，包含列表加载、搜索、刷新、文章详情和个人中心，并展示从 UI Event 到 Repository 的完整单向数据流。
+
+项目统一标识：Gradle 根项目名和仓库目录为 `compose-template`，应用包名为 `com.example.composetemplate`，Application 类为 `ComposeTemplateApplication`，应用显示名为 `Compose Template`。
 
 ## 快速开始
 
@@ -17,7 +19,7 @@
 
 | 模块 | 职责 | 可依赖方向 |
 | --- | --- | --- |
-| `app` | 应用组合根、依赖注入、顶层导航 | core、feature |
+| `app` | Application、应用组合根、依赖注入、顶层导航 | core、feature |
 | `feature:*` | 独立业务闭环：Screen、State、Event、ViewModel、Navigator | domain、model、designsystem |
 | `core:designsystem` | 主题、设计令牌、通用组件 | Compose |
 | `core:domain` | 可复用业务用例、Repository 契约 | model |

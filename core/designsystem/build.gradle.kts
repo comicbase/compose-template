@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.enterprise.core.designsystem"
+    namespace = "com.example.composetemplate.core.designsystem"
     compileSdk = 36
     defaultConfig { minSdk = 24 }
     compileOptions {

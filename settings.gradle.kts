@@ -14,7 +14,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EnterpriseComposeTemplate"
+rootProject.name = "compose-template"
 
 include(
     ":app",
@@ -29,4 +29,3 @@ include(
     ":feature:article",
     ":feature:profile",
 )
-

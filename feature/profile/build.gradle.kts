@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.enterprise.feature.profile"
+    namespace = "com.example.composetemplate.feature.profile"
     compileSdk = 36
     defaultConfig { minSdk = 24 }
     compileOptions {

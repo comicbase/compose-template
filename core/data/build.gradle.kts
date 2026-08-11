@@ -1,7 +1,7 @@
 plugins { alias(libs.plugins.android.library) }
 
 android {
-    namespace = "com.example.enterprise.core.data"
+    namespace = "com.example.composetemplate.core.data"
     compileSdk = 36
     defaultConfig { minSdk = 24 }
     compileOptions {
